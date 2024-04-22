@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container{
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+}
+input{
+    padding: 1rem;
+}
+button{
+    padding: 0.5rem 1rem;
+    background-color: red;
+    color: black;
+    border: none;
+    margin: 1rem;
+}
